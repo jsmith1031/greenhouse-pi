@@ -1,0 +1,8 @@
+# Only needed on the Pi. --sim runs on the standard library alone.
+adafruit-blinka
+adafruit-circuitpython-sht31d
+adafruit-circuitpython-scd4x
+adafruit-circuitpython-bh1750
+adafruit-circuitpython-bme280
+adafruit-circuitpython-ads1x15
+gpiozero

@@ -1,0 +1,96 @@
+# Everything the dashboard needs to know about this greenhouse.
+# Temperatures are in Celsius here whatever the screen shows.
+
+[screen]
+temperature_unit = "F"      # "F" or "C", display only
+read_seconds = 5            # how often the sensors are polled
+
+# Climate targets change with the time of day. Add more periods if needed;
+# each one runs from its start time until the next one starts.
+[[period]]
+name = "day"
+starts = "06:00"
+temp = [21.0, 27.0]         # air temperature, C
+vpd = [0.8, 1.2]            # vapour pressure deficit, kPa
+
+[[period]]
+name = "night"
+starts = "20:00"
+temp = [16.0, 21.0]
+vpd = [0.6, 1.0]
+
+[targets]
+humidity = [55, 75]         # percent
+co2 = [400, 1200]           # ppm
+
+[control]
+min_switch_seconds = 120    # shortest time between automatic switches
+hold_minutes = 30           # how long a tap overrides automation
+hold_choices = [15, 30, 60, 180]
+
+[lights]
+on = "06:00"
+off = "20:00"
+below_klx = 10.0            # top up with grow lights under this much daylight
+
+[irrigation]
+from = "07:00"
+until = "18:00"
+run_seconds = 90            # one watering
+soak_minutes = 30           # wait this long before watering again
+max_manual_seconds = 300    # a held-on pump is cut off after this
+tank_min_percent = 15       # never pump below this
+
+# One block per bed. moisture is the wanted range in percent. dry_volts and
+# wet_volts are what the probe reads in dry air and in a glass of water.
+[[bed]]
+crop = "Tomato"
+latin = "Solanum lycopersicum"
+moisture = [45, 70]
+adc_channel = 0
+soil_probe = "28-000000000001"
+dry_volts = 2.60
+wet_volts = 1.20
+
+[[bed]]
+crop = "Basil"
+latin = "Ocimum basilicum"
+moisture = [40, 65]
+adc_channel = 1
+soil_probe = "28-000000000002"
+dry_volts = 2.60
+wet_volts = 1.20
+
+[[bed]]
+crop = "Bell pepper"
+latin = "Capsicum annuum"
+moisture = [40, 65]
+adc_channel = 2
+soil_probe = "28-000000000003"
+dry_volts = 2.60
+wet_volts = 1.20
+
+[[bed]]
+crop = "Lettuce"
+latin = "Lactuca sativa"
+moisture = [50, 75]
+adc_channel = 3
+soil_probe = "28-000000000004"
+dry_volts = 2.60
+wet_volts = 1.20
+
+[tank]
+trigger_pin = 23
+echo_pin = 24
+empty_cm = 80.0             # sensor to water surface when empty
+full_cm = 10.0
+
+# BCM pin numbers for the relay board.
+[relays]
+active_low = true
+fan = 5
+ac = 6
+humidifier = 13
+dehumidifier = 19
+lights = 26
+pump = 21
