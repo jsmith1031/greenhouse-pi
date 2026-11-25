@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 540" width="1000" height="540" font-family="'IBM Plex Sans Condensed','Barlow Condensed','Roboto Condensed','DejaVu Sans Condensed','Liberation Sans Narrow','DejaVu Sans','Arial Narrow',sans-serif">
+<rect width="1000" height="540" fill="#E2EBE5"/>
+<rect x="28" y="62.0" width="220" height="52" fill="#F8FBF7" stroke="#2D5647" stroke-width="1.5"/>
+<text x="40" y="84.0" font-size="15" fill="#14302A" text-anchor="start" font-weight="700">SHT31</text>
+<text x="40" y="102.0" font-size="12.5" fill="#566C66" text-anchor="start">Air temperature and humidity</text>
+<rect x="28" y="124.0" width="220" height="52" fill="#F8FBF7" stroke="#2D5647" stroke-width="1.5"/>
+<text x="40" y="146.0" font-size="15" fill="#14302A" text-anchor="start" font-weight="700">SCD41</text>
+<text x="40" y="164.0" font-size="12.5" fill="#566C66" text-anchor="start">CO2</text>
+<rect x="28" y="186.0" width="220" height="52" fill="#F8FBF7" stroke="#2D5647" stroke-width="1.5"/>
+<text x="40" y="208.0" font-size="15" fill="#14302A" text-anchor="start" font-weight="700">BH1750</text>
+<text x="40" y="226.0" font-size="12.5" fill="#566C66" text-anchor="start">Daylight</text>
+<rect x="28" y="248.0" width="220" height="52" fill="#F8FBF7" stroke="#2D5647" stroke-width="1.5"/>
+<text x="40" y="270.0" font-size="15" fill="#14302A" text-anchor="start" font-weight="700">BME280</text>
+<text x="40" y="288.0" font-size="12.5" fill="#566C66" text-anchor="start">Outside temperature, humidity</text>
+<rect x="28" y="310.0" width="220" height="52" fill="#F8FBF7" stroke="#2D5647" stroke-width="1.5"/>
+<text x="40" y="332.0" font-size="15" fill="#14302A" text-anchor="start" font-weight="700">ADS1115</text>
+<text x="40" y="350.0" font-size="12.5" fill="#566C66" text-anchor="start">Four soil moisture probes</text>
+<rect x="28" y="372.0" width="220" height="52" fill="#F8FBF7" stroke="#2D5647" stroke-width="1.5"/>
+<text x="40" y="394.0" font-size="15" fill="#14302A" text-anchor="start" font-weight="700">DS18B20 x 4</text>
+<text x="40" y="412.0" font-size="12.5" fill="#566C66" text-anchor="start">Soil temperature in each bed</text>
+<rect x="28" y="434.0" width="220" height="52" fill="#F8FBF7" stroke="#2D5647" stroke-width="1.5"/>
+<text x="40" y="456.0" font-size="15" fill="#14302A" text-anchor="start" font-weight="700">HC-SR04</text>
+<text x="40" y="474.0" font-size="12.5" fill="#566C66" text-anchor="start">Water tank level</text>
+<polyline points="248,88.0 286,88.0" fill="none" stroke="#2D5647" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="248,150.0 286,150.0" fill="none" stroke="#2D5647" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="248,212.0 286,212.0" fill="none" stroke="#2D5647" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="248,274.0 286,274.0" fill="none" stroke="#2D5647" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="248,336.0 286,336.0" fill="none" stroke="#2D5647" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="286,88.0 286,336.0" fill="none" stroke="#2D5647" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="286,216 368,216" fill="none" stroke="#2D5647" stroke-width="2" stroke-linejoin="round"/>
+<text x="327" y="208" font-size="13" fill="#14302A" text-anchor="middle" font-weight="700">I2C</text>
+<polyline points="248,398.0 306,398.0 306,264 368,264" fill="none" stroke="#2D5647" stroke-width="2" stroke-linejoin="round"/>
+<text x="337" y="256" font-size="13" fill="#14302A" text-anchor="middle" font-weight="700">1-Wire</text>
+<polyline points="248,460.0 326,460.0 326,312 368,312" fill="none" stroke="#2D5647" stroke-width="2" stroke-linejoin="round"/>
+<text x="347" y="304" font-size="13" fill="#14302A" text-anchor="middle" font-weight="700">GPIO</text>
+<rect x="368" y="176" width="264" height="176" rx="10" fill="#14302A"/>
+<rect x="380" y="188" width="240" height="152" fill="#E2EBE5"/>
+<rect x="386" y="204" width="142" height="92" fill="none" stroke="#2D5647" stroke-width="1.5"/>
+<rect x="392" y="210" width="44" height="36" fill="#C9B498"/>
+<rect x="392" y="234" width="44" height="12" fill="#2F74A6"/>
+<rect x="392" y="210" width="44" height="13" fill="#F8FBF7"/>
+<rect x="442" y="210" width="44" height="36" fill="#C9B498"/>
+<rect x="442" y="240" width="44" height="6" fill="#2F74A6"/>
+<rect x="442" y="210" width="44" height="13" fill="#F8FBF7"/>
+<rect x="392" y="254" width="44" height="36" fill="#C9B498"/>
+<rect x="392" y="280" width="44" height="10" fill="#2F74A6"/>
+<rect x="392" y="254" width="44" height="13" fill="#F8FBF7"/>
+<rect x="442" y="254" width="44" height="36" fill="#C9B498"/>
+<rect x="442" y="276" width="44" height="14" fill="#2F74A6"/>
+<rect x="442" y="254" width="44" height="13" fill="#F8FBF7"/>
+<circle cx="508" cy="228" r="10" fill="#2F74A6"/>
+<rect x="538" y="210" width="26" height="8" fill="#14302A"/>
+<rect x="572" y="210" width="42" height="8" fill="#C5D3CC"/>
+<rect x="538" y="228" width="26" height="8" fill="#14302A"/>
+<rect x="572" y="228" width="42" height="8" fill="#C5D3CC"/>
+<rect x="538" y="246" width="26" height="8" fill="#14302A"/>
+<rect x="572" y="246" width="42" height="8" fill="#C5D3CC"/>
+<rect x="538" y="264" width="26" height="8" fill="#14302A"/>
+<rect x="572" y="264" width="42" height="8" fill="#C5D3CC"/>
+<rect x="538" y="282" width="26" height="8" fill="#14302A"/>
+<rect x="572" y="282" width="42" height="8" fill="#C5D3CC"/>
+<rect x="386" y="304" width="35" height="30" rx="2" fill="#2D5647" stroke="#2D5647"/>
+<rect x="425" y="304" width="35" height="30" rx="2" fill="#F8FBF7" stroke="#2D5647"/>
+<rect x="464" y="304" width="35" height="30" rx="2" fill="#F8FBF7" stroke="#2D5647"/>
+<rect x="503" y="304" width="35" height="30" rx="2" fill="#F8FBF7" stroke="#2D5647"/>
+<rect x="542" y="304" width="35" height="30" rx="2" fill="#F8FBF7" stroke="#2D5647"/>
+<rect x="581" y="304" width="35" height="30" rx="2" fill="#2D5647" stroke="#2D5647"/>
+<text x="500" y="376" font-size="15" fill="#14302A" text-anchor="middle" font-weight="700">Raspberry Pi behind a 7-inch touchscreen</text>
+<text x="500" y="395" font-size="12.5" fill="#566C66" text-anchor="middle">1024 x 600, runs the dashboard and the automation</text>
+<rect x="410" y="40" width="180" height="52" fill="#F8FBF7" stroke="#2D5647" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="422" y="62" font-size="15" fill="#14302A" text-anchor="start" font-weight="700">Pi camera</text>
+<text x="422" y="80" font-size="12.5" fill="#566C66" text-anchor="start">Twitch stream, planned</text>
+<polyline points="500,92 500,176" fill="none" stroke="#2D5647" stroke-width="2" stroke-linejoin="round" stroke-dasharray="5 4"/>
+<text x="510" y="140" font-size="13" fill="#14302A" text-anchor="start" font-weight="700">CSI</text>
+<rect x="684" y="176" width="64" height="176" fill="#F8FBF7" stroke="#2D5647" stroke-width="1.5"/>
+<polyline points="632,264 684,264" fill="none" stroke="#2D5647" stroke-width="2" stroke-linejoin="round"/>
+<text x="658.0" y="256" font-size="13" fill="#14302A" text-anchor="middle" font-weight="700">GPIO</text>
+<text x="716.0" y="376" font-size="15" fill="#14302A" text-anchor="middle" font-weight="700">Relay board</text>
+<text x="716.0" y="395" font-size="12.5" fill="#566C66" text-anchor="middle">six channels</text>
+<rect x="704" y="194" width="24" height="16" fill="#2D5647"/>
+<polyline points="748,202 775.0,202 775.0,93.0 800,93.0" fill="none" stroke="#2D5647" stroke-width="2" stroke-linejoin="round"/>
+<rect x="800" y="67.0" width="172" height="52" fill="#F8FBF7" stroke="#2D5647" stroke-width="1.5"/>
+<text x="812" y="89.0" font-size="15" fill="#14302A" text-anchor="start" font-weight="700">Vent fan</text>
+<text x="812" y="107.0" font-size="12.5" fill="#566C66" text-anchor="start">Heat, damp air, fresh CO2</text>
+<rect x="704" y="222" width="24" height="16" fill="#2D5647"/>
+<polyline points="748,230 769.0,230 769.0,165.0 800,165.0" fill="none" stroke="#2D5647" stroke-width="2" stroke-linejoin="round"/>
+<rect x="800" y="139.0" width="172" height="52" fill="#F8FBF7" stroke="#2D5647" stroke-width="1.5"/>
+<text x="812" y="161.0" font-size="15" fill="#14302A" text-anchor="start" font-weight="700">AC</text>
+<text x="812" y="179.0" font-size="12.5" fill="#566C66" text-anchor="start">Cooling</text>
+<rect x="704" y="250" width="24" height="16" fill="#2D5647"/>
+<polyline points="748,258 763.0,258 763.0,237.0 800,237.0" fill="none" stroke="#2D5647" stroke-width="2" stroke-linejoin="round"/>
+<rect x="800" y="211.0" width="172" height="52" fill="#F8FBF7" stroke="#2D5647" stroke-width="1.5"/>
+<text x="812" y="233.0" font-size="15" fill="#14302A" text-anchor="start" font-weight="700">Humidifier</text>
+<text x="812" y="251.0" font-size="12.5" fill="#566C66" text-anchor="start">When the air is too dry</text>
+<rect x="704" y="278" width="24" height="16" fill="#2D5647"/>
+<polyline points="748,286 763.0,286 763.0,309.0 800,309.0" fill="none" stroke="#2D5647" stroke-width="2" stroke-linejoin="round"/>
+<rect x="800" y="283.0" width="172" height="52" fill="#F8FBF7" stroke="#2D5647" stroke-width="1.5"/>
+<text x="812" y="305.0" font-size="15" fill="#14302A" text-anchor="start" font-weight="700">Dehumidifier</text>
+<text x="812" y="323.0" font-size="12.5" fill="#566C66" text-anchor="start">When the air is too damp</text>
+<rect x="704" y="306" width="24" height="16" fill="#2D5647"/>
+<polyline points="748,314 769.0,314 769.0,381.0 800,381.0" fill="none" stroke="#2D5647" stroke-width="2" stroke-linejoin="round"/>
+<rect x="800" y="355.0" width="172" height="52" fill="#F8FBF7" stroke="#2D5647" stroke-width="1.5"/>
+<text x="812" y="377.0" font-size="15" fill="#14302A" text-anchor="start" font-weight="700">Grow lights</text>
+<text x="812" y="395.0" font-size="12.5" fill="#566C66" text-anchor="start">Tops up dim daylight</text>
+<rect x="704" y="334" width="24" height="16" fill="#2D5647"/>
+<polyline points="748,342 775.0,342 775.0,453.0 800,453.0" fill="none" stroke="#2D5647" stroke-width="2" stroke-linejoin="round"/>
+<rect x="800" y="427.0" width="172" height="52" fill="#F8FBF7" stroke="#2D5647" stroke-width="1.5"/>
+<text x="812" y="449.0" font-size="15" fill="#14302A" text-anchor="start" font-weight="700">Water pump</text>
+<text x="812" y="467.0" font-size="12.5" fill="#566C66" text-anchor="start">Drip line to the beds</text>
+<text x="28" y="40" font-size="15" fill="#14302A" text-anchor="start" font-weight="700">Sensors</text>
+<text x="800" y="40" font-size="15" fill="#14302A" text-anchor="start" font-weight="700">Switched at the mains</text>
+</svg>
