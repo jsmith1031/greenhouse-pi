@@ -242,14 +242,14 @@ def _switches(s, controller):
         on = controller.on[key]
         held = key in controller.holds
         face, words = (FRAME, PAPER) if on else (PAPER, INK)
-        quiet = mix(words, face, 0.3)
+        quiet = words if on else mix(words, face, 0.3)
 
         s.polygon(_rounded(x0, y0, x1, y1, 7), fill=face, outline=FRAME, width=1.5)
         s.text(x0 + 13, y0 + 21, name, 15, quiet)
         s.text(x0 + 13, y0 + 59, "On" if on else "Off", 36, words, bold=True)
         if held:
             s.rect(x0 + 4, y1 - 32, x1 - 4, y1 - 4, fill=SUN)
-            s.text(x0 + 13, y1 - 18, controller.reason[key], 13, INK, bold=True)
+            s.text(x0 + 13, y1 - 18, controller.reason[key], 13, GLASS, bold=True)
         else:
             s.text(x0 + 13, y1 - 18, controller.reason[key], 12, quiet)
         areas.append((x0, y0, x1, y1, ("tap", key)))

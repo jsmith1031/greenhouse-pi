@@ -4,7 +4,7 @@ A Raspberry Pi with a 7-inch touchscreen that watches the plants in a small
 greenhouse and runs the fan, AC, humidifier, dehumidifier, grow lights and
 water pump for them.
 
-![Sensors on the left feed the Pi and its touchscreen, which switches six devices through a relay board](docs/hardware.svg)
+![One plant under a grow light in the greenhouse, with each sensor and device shown where it sits](docs/hardware.svg)
 
 ![The dashboard: four beds seen from above, air readings with six-hour traces, and six switches](docs/dashboard.svg)
 
